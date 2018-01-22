@@ -1,0 +1,168 @@
+.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+
+}
+
+.black {
+    color: black;
+}
+
+.cyan {
+    color: cyan;
+}
+
+.wrapper {
+    display: grid;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.blue {
+    color: blue;
+}
+
+.navbar1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+}
+
+.lists {
+    float: left;
+    width: 25%;
+}
+
+.listanchor {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .image1 {
+    height: 120px;
+    width: 220px;
+  }
+
+  h1 {
+    font-size: 80%;
+  }
+
+  h3 {
+    font-size: 60%;
+}
+}
+
+.startbox {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;
+    height: 1800px;
+    padding: 5%;
+    border: 10px;
+    background-color: black;
+    border-style: inset;
+    border-color: black;
+    color: cyan;
+}
+
+* {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.line {
+    width: 96%;
+    margin: 2%;
+    height: 40px;
+    padding: 8px;
+    border: 2px;
+    background-color: white;
+    color: blue;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 133%;
+    border-radius: 6px;
+}
+
+.box {
+    display: inline-block;
+    width: 45%;
+    background-color: black;
+}
+
+.center {
+    text-align: center;
+    font-size: 200%
+}
+
+.button1 {
+    text-align: center;
+    width: 220px;
+    height: 350px;
+    margin: 4%;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.button2 {
+    min-width: 83px;
+    text-align: center;
+    width: 35%;
+    height: 48px;
+    margin: 4.5%;
+    background-color: inherit;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
