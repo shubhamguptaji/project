@@ -28,9 +28,13 @@
         </div>
       </div>
     </header>
-    <div class="line margin">
-      <div class="blue">
-        Welcome to Gupta ji's Portfolio
+    <div class="container">
+      <div class="row line margin">
+        <div class="col-md-12">
+          <div class="blue">
+            Welcome to Gupta ji's Portfolio
+          </div>
+        </div>
       </div>
     </div>
 
@@ -47,15 +51,147 @@
               About me
             </button>
           </div>
+          <!-- About me Modal -->
+          <div class="modal fade" id="myModalaboutme" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;
+                  </button>
+                  <h2 class="modal-title black">
+                    MORE ABOUT ME
+                  </h2>
+                </div>
+                <div class="overflow modal-body">
+                  <img class="img-responsive" src="img/guptaji.jpg" height="400" width="566" alt="C codes">
+                  <div class="black">
+                    <h3>
+                      <b>
+                        Marticulation
+                      </b>
+                      from
+                      <b>
+                        D.C. Model Senior Secondary School,Ambala Cantt
+                      </b>
+                    </h3>
+                    Scored 9.8 CGPA in 10<sup>th</sup> board examinations.
+                    <h3>
+                      <b>
+                        Intermediate
+                      </b>
+                      from
+                      <b>
+                        Kendriya Vidyalya no.1, Ambala Cantt
+                      </b>
+                    </h3>
+                    Scored 88.6% in 12<sup>th</sup> board examinations.
+                    <h3>
+                      <b>
+                        Bachelor's in Engineering
+                      </b>
+                      from
+                      <b>
+                        CHITKARA UNIVERSITY
+                      </b>
+                    </h3>
+                    9.36 CGPA till 3rd sem.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-3">
             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalcontactme">
               Contact Me
             </button>
           </div>
+          <!-- Modal for contact me-->
+          <div class="modal fade" id="myModalcontactme" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                  <h2 class="modal-title black">
+                    CONTACT ME
+                  </h2>
+                </div>
+                <div class="modal-body">
+                  <a href="https://github.com/ShubhamGupta2604">
+                    <img src="img/githublogo.png" alt="githublogo" height="100" width="100">
+                  </a>
+                  <a href="https://mail.google.com/mail/u/0/#inbox">
+                    <img src="img/emaillogo.png" alt="emaillogo" height="100" width="100">
+                  </a>
+                  <a href="https://www.instagram.com/shubham9988gupta">
+                    <img src="img/instagramlogo.png" alt="instagramlogo" height="100" width="100">
+                  </a>
+                  <a href="https://www.linkedin.com/in/shubham-gupta-940677156/">
+                    <img src="img/linkedinlogo.png" alt="linkedinlogo" height="100" width="100">
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100007069684366">
+                    <img src="img/fblogo.png" alt="fblogo" height="100" width="100">
+                  </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-3">
             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalprojects">
               Projects
             </button>
+          </div>
+          <!-- Projects Modal -->
+          <div class="modal fade" id="myModalprojects" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                  </button>
+                  <h2 class="modal-title black">
+                    PROJECTS
+                  </h2>
+                </div>
+                <div class="container modal-body">
+                  <ul>
+                    <li>
+                      <button type="button" class="button1 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                        <img class="img-responsive" src="img/hqdefault.jpg" alt="C" height="180" width="180">
+                        <br>Basic C Codes
+                      </button>
+                    </li>
+                    <li>
+                      <button type="button" class="button1 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">
+                        <img class="img-responsive" src="img/Capture.png" alt="movie-trailer-website" height="180" width="180">
+                        <br>Movie Trailer Website
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -159,137 +295,7 @@
       </div>
     </div>
   </article>
-  <!-- About me Modal -->
-  <div class="modal fade" id="myModalaboutme" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;
-          </button>
-          <h2 class="modal-title black">
-            MORE ABOUT ME
-          </h2>
-        </div>
-        <div class="overflow modal-body">
-          <img class="img-responsive" src="img/guptaji.jpg" height="400" width="566" alt="C codes">
-          <div class="black">
-            <h3>
-              <b>
-                Marticulation
-              </b>
-              from
-              <b>
-                D.C. Model Senior Secondary School,Ambala Cantt
-              </b>
-            </h3>
-            Scored 9.8 CGPA in 10<sup>th</sup> board examinations.
-            <h3>
-              <b>
-                Intermediate
-              </b>
-              from
-              <b>
-                Kendriya Vidyalya no.1, Ambala Cantt
-              </b>
-            </h3>
-            Scored 88.6% in 12<sup>th</sup> board examinations.
-            <h3>
-              <b>
-                Bachelor's in Engineering
-              </b>
-              from
-              <b>
-                CHITKARA UNIVERSITY
-              </b>
-            </h3>
-            9.36 CGPA till 3rd sem.
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Modal for contact me-->
-  <div class="modal fade" id="myModalcontactme" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">
-            &times;
-          </button>
-          <h2 class="modal-title black">
-            CONTACT ME
-          </h2>
-        </div>
-        <div class="modal-body">
-          <a href="https://github.com/ShubhamGupta2604">
-            <img src="img/githublogo.png" alt="githublogo" height="100" width="100">
-          </a>
-          <a href="https://mail.google.com/mail/u/0/#inbox">
-            <img src="img/emaillogo.png" alt="emaillogo" height="100" width="100">
-          </a>
-          <a href="https://www.instagram.com/shubham9988gupta">
-            <img src="img/instagramlogo.png" alt="instagramlogo" height="100" width="100">
-          </a>
-          <a href="https://www.linkedin.com/in/shubham-gupta-940677156/">
-            <img src="img/linkedinlogo.png" alt="linkedinlogo" height="100" width="100">
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100007069684366">
-            <img src="img/fblogo.png" alt="fblogo" height="100" width="100">
-          </a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Projects Modal -->
-  <div class="modal fade" id="myModalprojects" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">
-            &times;
-          </button>
-          <h2 class="modal-title black">
-            PROJECTS
-          </h2>
-        </div>
-        <div class="container modal-body">
-          <ul>
-            <li>
-              <button type="button" class="button1 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
-                <img class="img-responsive" src="img/hqdefault.jpg" alt="C" height="180" width="180">
-                <br>Basic C Codes
-              </button>
-            </li>
-            <li>
-              <button type="button" class="button1 btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">
-                <img class="img-responsive" src="img/Capture.png" alt="movie-trailer-website" height="180" width="180">
-                <br>Movie Trailer Website
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">
-            Close
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
